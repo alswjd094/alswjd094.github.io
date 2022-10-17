@@ -10,5 +10,15 @@
     <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white"> <br>
     <br>
     <br>
-    [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alswjd094&layout=compact)](https://github.com/alswjd094/github-readme-stats)
-    ![alswjd094's GitHub stats](https://github-readme-stats.vercel.app/api?username=MINJUNG&show_icons=true&theme=radical)
+
+ 
+## 📂 Project
+* 회원가입 페이지 만들기
+<br>
+<br>
+
+<div align="right">
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alswjd094&layout=compact)](https://github.com/alswjd094/github-readme-stats)
+</div>
+    
