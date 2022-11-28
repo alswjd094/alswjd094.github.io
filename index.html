@@ -14,6 +14,16 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
+            #project-form{  
+                height: 600px;
+            }
+            #image-form{
+                width: 250px;
+                height: 420px;
+                margin-left: auto;
+                margin-right: auto;
+                /* padding: 10px 5px; */
+            }
         </style>
     </head>
     <body>
@@ -60,16 +70,17 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                      <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-stack-overflow"></i></div><br>
                      <h2 class="h4 fw-bolder">Teck Stacks</h2>
-                     <img src="https://img.shields.io/badge/java-007396??style=plastic&logo=appveyor=java&logoColor=white"> 
-                     <img src="https://img.shields.io/badge/spring-6DB33F??style=plastic&logo=appveyor=spring&logoColor=white"><br>
+                     <img src="https://img.shields.io/badge/Java-007396??style=plastic&logo=appveyor=java&logoColor=white"> 
+                     <img src="https://img.shields.io/badge/Spring-6DB33F??style=plastic&logo=appveyor=spring&logoColor=white">
+                     <img src="https://img.shields.io/badge/IntelliJ-000000?style=plastic&logo=intelliJ&logoColor=white"><br>
                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E??style=plastic&logo=appveyor=JavaScript&logoColor=white"/>
                        <img src="https://img.shields.io/badge/HTML-E34F26??style=plastic&logo=appveyor=HTML&logoColor=white"/>
-                       <img src="https://img.shields.io/badge/css-1572B6??style=plastic&logo=appveyor=css3&logoColor=white">
-                       <img src="https://img.shields.io/badge/bootstrap-7952B3??style=plastic&logo=appveyor=bootstrap&logoColor=white"><br>
+                       <img src="https://img.shields.io/badge/CSS-1572B6??style=plastic&logo=appveyor=css3&logoColor=white">
+                       <img src="https://img.shields.io/badge/Bootstrap-7952B3??style=plastic&logo=appveyor=bootstrap&logoColor=white"><br>
                        <img src="https://img.shields.io/badge/MySQL-4479A1??style=plastic&logo=appveyor=MySQL&logoColor=white"/>
-                       <img src="https://img.shields.io/badge/firebase-FFCA28??style=plastic&logo=appveyor=firebase&logoColor=white"><br>
-                       <img src="https://img.shields.io/badge/github-181717??style=plastic&logo=appveyor=github&logoColor=white">
-                       <img src="https://img.shields.io/badge/git-F05032??style=plastic&logo=appveyor=git&logoColor=white"> <br>
+                       <img src="https://img.shields.io/badge/Firebase-FFCA28??style=plastic&logo=appveyor=firebase&logoColor=white"><br>
+                       <img src="https://img.shields.io/badge/Github-181717??style=plastic&logo=appveyor=github&logoColor=white">
+                       <img src="https://img.shields.io/badge/Git-F05032??style=plastic&logo=appveyor=git&logoColor=white"> <br>
 
                        
                     </div>
@@ -105,13 +116,13 @@
                     <!-- Pricing card free-->
                     <div class="col-lg-6 col-xl-4">
                         <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
+                            <div class="card-body p-5" id="project-form">
                                 <div class="small text-uppercase fw-bold text-muted mb-2">Project.1</div>
                                 <div class="mb-2 text-center">
                                     <span class="display-7 fw-bold">회원가입 게시판 만들기</span>
                                 </div>
-                                <div class="text-center">
-                               <img src = "image/page_capture.png" alt= "이미지가 보이지 않아요" width="200" height="301">
+                                <div class="text-center" id="image-form">
+                               <img src = "image/page_capture.png" alt= "이미지가 보이지 않아요" width="200" height="350">
                             </div> 
                                <div class="d-grid mt-3"><a class="btn btn-outline-primary" href="https://github.com/alswjd094/member-registration-code.git" target="_blank">Click</a></div>
                             </div>
@@ -120,104 +131,37 @@
                     <!-- Pricing card pro-->
                     <div class="col-lg-6 col-xl-4">
                         <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold">
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    Pro
+                            <div class="card-body p-5" id="project-form">
+                                <div class="small text-uppercase fw-bold text-muted mb-2">Project.2</div>
+                                <div class="mb-2 text-center">
+                                    <span class="display-7 fw-bold">회원제 게시판 프로젝트</span>
                                 </div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">$9</span>
-                                    <span class="text-muted">/ mo.</span>
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>5 users</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        5GB storage
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited public projects
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Community access
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited private projects
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Dedicated support
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Free linked domain
-                                    </li>
-                                    <li class="text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Monthly status reports
-                                    </li>
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
+                                <div class="text-center" id="image-form">
+                                    <img src="image/page2_capture.png" alt="" width="230" height="100">
+                                    <br>
+                                    <img src="image/page2-1_capture.png" alt="" width="230" height="280">
+                                    </div>
+                                    <div class="d-grid mt-3"><a class="btn btn-outline-primary" href="https://github.com/alswjd094/members_20221104" target="_blank">Click</a></div>
                             </div>
                         </div>
                     </div>
                     <!-- Pricing card enterprise-->
                     <div class="col-lg-6 col-xl-4">
-                        <div class="card">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold text-muted">Enterprise</div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">$49</span>
-                                    <span class="text-muted">/ mo.</span>
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5" id="project-form">
+                                <div class="small text-uppercase fw-bold text-muted mb-2">Project.3</div>
+                                <div class="mb-2 text-center">
+                                    <span class="display-7 fw-bold">SNS Clone Coding</span>
                                 </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>Unlimited users</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        5GB storage
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited public projects
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Community access
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Unlimited private projects
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Dedicated support
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>Unlimited</strong>
-                                        linked domains
-                                    </li>
-                                    <li class="text-muted">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Monthly status reports
-                                    </li>
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                                <div class="text-center" id="image-form">
+                                    <img src="image/page3_capture.png" width="140" height="70" alt="">
+                                    <br>
+                                    <img src="image/pate3-1_capture.png" width="200" height="350" alt="">
+                                    </div>
+                                    <div class="d-grid mt-3"><a class="btn btn-outline-primary" href="https://github.com/alswjd094/project_20221116" target="_blank">Click</a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; minjung's Website 2022</p></div>
